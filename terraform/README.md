@@ -9,3 +9,7 @@
 
 1. `terraform destroy` in this folder
 2. `terraform destroy` in folder `init`
+
+#### Reference Architecture
+- https://github.com/WtfJoke/aws-gh-oidc
+- https://blog.codecentric.de/en/2022/05/secretless-connections-from-github-actions-to-aws-using-oidc/
