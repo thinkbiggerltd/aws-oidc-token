@@ -18,4 +18,4 @@ jobs:
 #         role-to-assume: arn:aws:iam::270938111953:role/aws-gh-oidc
 
     - name: List Directories
-      run: ls -larth
+      run: ls -larth && pwd
