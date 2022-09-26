@@ -17,5 +17,12 @@ jobs:
 #         aws-region: eu-west-1
 #         role-to-assume: arn:aws:iam::270938111953:role/aws-gh-oidc
 
+    - name: Checkout Repo
+      uses: actions/checkout@v2
+#       with:
+#         name: htz-test/dvps-infra-cloudbees
+#         ref: refs/heads/main
+#         token: ${{ secrets.GITHUB_TOKEN }}
+
     - name: List Directories
       run: ls -larth && pwd
